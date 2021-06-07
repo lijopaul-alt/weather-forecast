@@ -24,14 +24,12 @@ function App() {
       setTimeout(() => {
         fetch(`${api.base}weather?q=${query}&appid=${api.key}`)
           .then((response) => {
-            console.log(response);
             return response.json();
           })
           .then((res) => {
             setweather(res);
             setQuery("");
             setLoading(false);
-            console.log(res);
           })
           .catch((err) => setLoading(false));
       }, 1000);
