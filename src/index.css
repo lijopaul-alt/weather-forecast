@@ -142,7 +142,6 @@ body {
     width: 100vw;
     flex-wrap: wrap;
     overflow: hidden;
-    transition: 0.3s ease-in-out;
   }
   .app.warm {
     background-image: url("./assets/warm-1.jpg");
