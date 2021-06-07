@@ -145,7 +145,7 @@ body {
     transition: 0.3s ease-in-out;
   }
   .app.warm {
-    background-image: url("./assets/warm-1.jpg");
+    background-image: url("./assets/cold-2.jpg");
     background-size: cover;
     background-position: center;
 
