@@ -195,6 +195,13 @@ body {
     margin-top: 0;
     opacity: 1;
   }
+  .error {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 40%;
+  }
   .logo {
     border-right: solid 5px rgba(255, 255, 255, 0.75);
     white-space: nowrap;
